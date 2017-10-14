@@ -1,7 +1,16 @@
 img {
     width: 200px;
+    
 }
 body{
     text-align: center;
-    font-family: "Helvetica";
+    font-family: "Impact";
+    background-image: url("https://www.clicktorelease.com/code/gif/1.gif")
+}
+h1{
+        color: LightCoral;
+    }
+    
+p{
+    color: Yellow;
 }
