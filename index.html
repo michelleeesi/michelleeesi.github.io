@@ -1,14 +1,68 @@
-<section id="about">
-    <h2>About Me</h2>
-    <div class="about-flex">
-        <p>
-            I'm a first-year CS PhD student at Harvard and am very fortunate to be advised by Ariel Procaccia and Finale Doshi-Velez. Previously, I studied math at Duke University, where I had the privilege of working with Jian Pei.
-        </p>
-        <figure class="about-photo">
-            <img src="IMG_1201.jpg" alt="Michelle Si" />
-            <figcaption>
-                A foregone <a href="https://www.wsj.com/opinion/a-math-major-at-the-vatican-pope-leo-church-c236edbf?gaa_at=eafs&gaa_n=ASWzDAjMJVvDiTgqNSemDY0NNsPnX44HnhcPtCBkiLJGdEn486n7kIZv53Gy1goYt5c%3D&gaa_ts=68647204&gaa_sig=Zj1zQWo_9kf0y6nLnb7PCT0iugDtDowK1CSw4PjKqR3_K5ercbPXkwimxWcNxpN76S5KxBf_Sy3qvXxqudP_6w%3D%3D" target="_blank" rel="noopener noreferrer">career path</a>...
-            </figcaption>
-        </figure>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="style.css" />
+    <style>
+        .about-flex {
+            display: flex;
+            align-items: flex-start;
+            gap: 20px;
+        }
+        .about-photo {
+            width: 100px;
+            height: auto;
+            border-radius: 8px;
+        }
+        .about-caption {
+            font-size: 0.9em;
+            color: #555;
+            margin-top: 4px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <main class="content">
+            <header>
+                <h1>Michelle Si</h1>
+                <p>CS PhD Student | Harvard University</p>
+                <nav>
+                    <a href="#about">About</a>
+                    <a href="#research">Research</a>
+                    <a href="#contact">Contact</a>
+                </nav>
+            </header>
+
+            <section id="about">
+                <h2>About Me</h2>
+                <div class="about-flex">
+                    <div>
+                        <p>I'm a first-year CS PhD student at Harvard and am very fortunate to be advised by Ariel Procaccia and Finale Doshi-Velez. Previously, I studied math at Duke University, where I had the privilege of working with Jian Pei.</p>
+                    </div>
+                    <div>
+                        <img src="IMG_1201.jpg" alt="Michelle Si" class="about-photo" />
+                        <div class="about-caption">
+                            A foregone <a href="https://www.wsj.com/opinion/a-math-major-at-the-vatican-pope-leo-church-c236edbf?gaa_at=eafs&gaa_n=ASWzDAjMJVvDiTgqNSemDY0NNsPnX44HnhcPtCBkiLJGdEn486n7kIZv53Gy1goYt5c%3D&gaa_ts=68647204&gaa_sig=Zj1zQWo_9kf0y6nLnb7PCT0iugDtDowK1CSw4PjKqR3_K5ercbPXkwimxWcNxpN76S5KxBf_Sy3qvXxqudP_6w%3D%3D" target="_blank" rel="noopener noreferrer">career path</a>...
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="research">
+                <h2>Research</h2>
+                <p>I use tools from economics and computer science to study the societal impacts of AI. I'm interested in alignment as well as evaluations of the sociotechnical effects of AI systems.</p>
+            </section>
+
+            <section id="contact">
+                <h2>Contact</h2>
+                <p>Email: msi at g dot harvard dot edu </p>
+            </section>
+        </main>
     </div>
-</section>
+
+    <footer>
+        <p>&copy; 2025 Michelle Si</p>
+    </footer>
+</body>
+</html>
