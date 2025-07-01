@@ -1,0 +1,43 @@
+/* Dark green theme with clean typography */
+body {
+  background-color: #0b3d0b; /* dark green */
+  color: #f0f0f0;
+  font-family: Georgia, serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background: #062b06;
+  padding: 2rem;
+  text-align: center;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2.5rem;
+}
+
+header nav a {
+  color: #f0f0f0;
+  margin: 0 1rem;
+  text-decoration: none;
+}
+
+main {
+  max-width: 700px;
+  margin: 2rem auto;
+  padding: 0 1rem;
+}
+
+h2 {
+  border-bottom: 2px solid #f0f0f0;
+  padding-bottom: 0.5rem;
+}
+
+footer {
+  text-align: center;
+  padding: 2rem;
+  background: #062b06;
+}
