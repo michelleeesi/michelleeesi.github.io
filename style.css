@@ -1,7 +1,7 @@
 /* Dark green theme with clean typography */
 
 body {
-  background-color: #0b3d0b; /* dark green */
+  background-color: #002a0e; /* dark green */
   color: #f0f0f0;
   font-family: 'Roboto', sans-serif;
   line-height: 1.6;
@@ -10,7 +10,7 @@ body {
 }
 
 header {
-  background: #062b06;
+  background: #025621;
   padding: 2rem;
   text-align: center;
 }
