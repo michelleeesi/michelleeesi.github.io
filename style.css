@@ -1,7 +1,7 @@
 /* Dark green theme with clean typography */
 
 body {
-  background-color: #034e1c; /* dark green */
+  background-color: #022e11; /* dark green */
   color: #f0f0f0;
   font-family: 'Roboto', sans-serif;
   line-height: 1.6;
@@ -10,7 +10,7 @@ body {
 }
 
 header {
-  background: #012a10;
+  background: #006324;
   padding: 2rem;
   text-align: center;
 }
@@ -54,4 +54,19 @@ header nav a:hover,
 header nav a:focus {
     background: #f0f0f0;
     color: #025621;
+}
+
+header h1,
+h2 {
+    font-weight: 400;
+}
+
+a {
+    color: #ceffb3; /* light green */
+    transition: color 0.2s;
+}
+
+a:hover,
+a:focus {
+    color: #cbffaf; /* lighter green on hover */
 }
